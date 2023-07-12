@@ -19,6 +19,9 @@
   }
 
   .about-wrapper {
+    display: flex;
+    justify-content: center;
+
     @include respond(phone) {
       padding-bottom: 5rem;
     }
